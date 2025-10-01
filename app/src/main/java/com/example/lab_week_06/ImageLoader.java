@@ -1,4 +1,4 @@
-package com.example.lab_week_06
+package com.example.lab_week_06;
 
 import android.widget.ImageView;
 

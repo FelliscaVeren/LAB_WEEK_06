@@ -4,6 +4,9 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.lab_week_06.model.CatModel
+import com.example.lab_week_06.model.Gender
+import com.example.lab_week_06.model.CatBreed
 
 class MainActivity : AppCompatActivity() {
 

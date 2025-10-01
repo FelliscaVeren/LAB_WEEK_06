@@ -4,6 +4,9 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.lab_week_06.model.CatModel
+import com.example.lab_week_06.model.CatBreed
+import com.example.lab_week_06.model.Gender
 
 private const val FEMALE_SYMBOL = "\u2640"  // ♀
 private const val MALE_SYMBOL = "\u2642"    // ♂
