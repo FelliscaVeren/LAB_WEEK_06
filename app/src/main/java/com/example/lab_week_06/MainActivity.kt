@@ -48,29 +48,18 @@ class MainActivity : AppCompatActivity() {
         })
         itemTouchHelper.attachToRecyclerView(recyclerView)
 
-        // Tambahkan data dummy setelah attach
+        // Tambahkan data dummy (10 item minimal)
         val catList = listOf(
-            CatModel(
-                Gender.Male,
-                CatBreed.BalineseJavanese,
-                "Fred",
-                "Silent and deadly",
-                "https://cdn2.thecatapi.com/images/7dj.jpg"
-            ),
-            CatModel(
-                Gender.Female,
-                CatBreed.ExoticShorthair,
-                "Wilma",
-                "Cuddly assassin",
-                "https://cdn2.thecatapi.com/images/egv.jpg"
-            ),
-            CatModel(
-                Gender.Unknown,
-                CatBreed.AmericanCurl,
-                "Curious George",
-                "Award winning investigator",
-                "https://cdn2.thecatapi.com/images/bar.jpg"
-            )
+            CatModel(Gender.Male, CatBreed.BalineseJavanese, "Fred", "Silent and deadly", "https://cdn2.thecatapi.com/images/7dj.jpg"),
+            CatModel(Gender.Female, CatBreed.ExoticShorthair, "Wilma", "Cuddly assassin", "https://cdn2.thecatapi.com/images/egv.jpg"),
+            CatModel(Gender.Unknown, CatBreed.AmericanCurl, "Curious George", "Award winning investigator", "https://cdn2.thecatapi.com/images/bar.jpg"),
+            CatModel(Gender.Male, CatBreed.Bengal, "Tiger", "Fast and playful", "https://cdn2.thecatapi.com/images/06e.jpg"),
+            CatModel(Gender.Female, CatBreed.Burmese, "Luna", "Loves cuddles", "https://cdn2.thecatapi.com/images/5n8.jpg"),
+            CatModel(Gender.Male, CatBreed.Chartreux, "Smokey", "Quiet observer", "https://cdn2.thecatapi.com/images/3j6.jpg"),
+            CatModel(Gender.Unknown, CatBreed.DevonRex, "Pixie", "Funny and curious", "https://cdn2.thecatapi.com/images/8is.jpg"),
+            CatModel(Gender.Female, CatBreed.Himalayan, "Bella", "Elegant beauty", "https://cdn2.thecatapi.com/images/mt7.jpg"),
+            CatModel(Gender.Male, CatBreed.MaineCoon, "Max", "Big and friendly", "https://cdn2.thecatapi.com/images/ozm.jpg"),
+            CatModel(Gender.Unknown, CatBreed.Ragdoll, "Mochi", "Lazy and adorable", "https://cdn2.thecatapi.com/images/9ou.jpg")
         )
 
         catAdapter.setData(catList)
